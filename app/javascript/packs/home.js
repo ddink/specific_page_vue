@@ -5,8 +5,10 @@
 import Vue from 'vue'
 import App from '../parts/home.vue'
 import {isView} from 'vueonrails'
+import TurbolinksAdapter from 'vue-turbolinks'
+Vue.use(TurbolinksAdapter)
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('turbolinks:load', () => {
   if (isView('pages#index')) {
     document.body.appendChild(document.createElement('home'))
     const home = new Vue({

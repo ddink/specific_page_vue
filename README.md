@@ -1,6 +1,6 @@
 # Specific Page Vue with Turbolinks Support
 
-This is a simple Hello World app. It is a Ruby on Rails project that uses Vue.js for specific pages only (hence it's name).
+This is a simple Hello World app. It is a Ruby on Rails project that uses Vue.js for specific pages only.
 
 ```
   yarn install

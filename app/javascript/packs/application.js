@@ -14,5 +14,7 @@
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-
+require('./home')
 console.log('Hello World from Webpacker')
+
+import './hello_vue'

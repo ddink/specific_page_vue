@@ -1,24 +1,16 @@
-# README
+# Specific Page Vue with Turbolinks Support
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple Hello World app. It is a Ruby on Rails project that uses Vue.js for one specific page (hence it's name).
 
-Things you may want to cover:
+```
+  yarn install
+  rails webpacker:install
+  rails webpacker:install:vue
+  rails vue:setup
+  yarn add vue-turbolinks
+  rails db:migrate
+  
+  rails s
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Redirect to `/pages` and you'll see "Hello World!"
